@@ -14,16 +14,7 @@ import prev from './assets/prev-arrow.png'
 import next from './assets/next-arrow.png'
 
 const MoviePage = styled.div`
-html,
-body {
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 
     .backdrop{
         background-color: rgb(31,31,31);
