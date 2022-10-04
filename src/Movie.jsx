@@ -196,6 +196,7 @@ opacity: 1 !important;
     }
     .carousel{
         width: 100%;
+        overflow-x: hidden;
     }
     .carousel-upper{
         background: white;
@@ -205,7 +206,7 @@ opacity: 1 !important;
         margin: 0 0;
         display: flex;
         flex-direction: row;
-        
+        overflow-x: hidden;
         justify-content: center;
     }
     .video-section{
@@ -215,6 +216,7 @@ opacity: 1 !important;
         padding: 25px 0px;
         width: 95vw;
         margin-left: 40px;
+        overflow-x: hidden;
         
     }
     .player-wrapper{
