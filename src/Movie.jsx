@@ -14,6 +14,16 @@ import prev from './assets/prev-arrow.png'
 import next from './assets/next-arrow.png'
 
 const MoviePage = styled.div`
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
     .backdrop{
         background-color: rgb(31,31,31);
@@ -157,7 +167,7 @@ height: 50px;
 content: '' !important;
 position: absolute;
 top: -21px;
-left: -5px;
+left: -30px;
 background-image: url(${next});
 background-repeat: no-repeat;
 vertical-align: middle;
@@ -194,14 +204,14 @@ opacity: 1 !important;
         color:black;
     }
     .carousel{
-        width: 95vw;
+        width: 100%;
     }
     .carousel-upper{
         background: white;
     }
     .carousel-ctnr1{
         padding: 25px 0;
-        margin: 0 10px;
+        margin: 0 0;
         display: flex;
         flex-direction: row;
         
@@ -229,7 +239,7 @@ opacity: 1 !important;
         font-size: 1.7rem;
         padding-left: 20px;
         font-family: "Roboto", sans-serif;
-        width:100vw;
+        width:94vw;
         background: rgb(31,31,31);
     }
     @media screen and (max-width: 800px) {
@@ -237,6 +247,7 @@ opacity: 1 !important;
     margin-left: 0px;
     text-align: center;
   }
+
   
 }
 
